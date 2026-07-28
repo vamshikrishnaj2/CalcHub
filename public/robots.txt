@@ -3,5 +3,5 @@ User-agent: *
 Allow: /
 
 # Host & Sitemap specification
-Host: https://calchub.vercel.app
-Sitemap: https://calchub.vercel.app/sitemap.xml
+Host: https://calchub-pink.vercel.app
+Sitemap: https://calchub-pink.vercel.app/sitemap.xml

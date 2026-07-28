@@ -15,7 +15,8 @@ export default function Navbar() {
   const [recentDropdownOpen, setRecentDropdownOpen] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
-  const searchRef = useRef<HTMLDivElement>(null);
+  const searchRef = useRef<HTMLFormElement>(null);
+  const mobileSearchRef = useRef<HTMLFormElement>(null);
   const favRef = useRef<HTMLDivElement>(null);
   const recentRef = useRef<HTMLDivElement>(null);
 
@@ -50,7 +51,10 @@ export default function Navbar() {
 
     // Capture clicks outside dropdowns to close them gracefully
     const handleOutsideClick = (e: MouseEvent) => {
-      if (searchRef.current && !searchRef.current.contains(e.target as Node)) {
+      const isDesktopSearch = searchRef.current && searchRef.current.contains(e.target as Node);
+      const isMobileSearch = mobileSearchRef.current && mobileSearchRef.current.contains(e.target as Node);
+
+      if (!isDesktopSearch && !isMobileSearch) {
         setSearchQuery('');
         setSuggestions([]);
       }
@@ -102,6 +106,7 @@ export default function Navbar() {
   const handleSelectSuggestion = (path: string) => {
     setSearchQuery('');
     setSuggestions([]);
+    setMobileMenuOpen(false);
     navigate(path);
   };
 
@@ -330,11 +335,11 @@ export default function Navbar() {
         <div className="sm:hidden border-t border-gray-100 dark:border-zinc-800 bg-white dark:bg-zinc-950 px-4 py-4 space-y-4">
           {/* Mobile search */}
           <form
+            ref={mobileSearchRef}
             onSubmit={e => {
               e.preventDefault();
               if (suggestions.length > 0) {
                 handleSelectSuggestion(suggestions[0].path);
-                setMobileMenuOpen(false);
               }
             }}
             className="relative"

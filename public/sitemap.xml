@@ -6,13 +6,13 @@
 
   <!-- Core Pages -->
   <url>
-    <loc>https://calchub.vercel.app/</loc>
+    <loc>https://calchub-pink.vercel.app/</loc>
     <lastmod>2026-07-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://calchub.vercel.app/#/about</loc>
+    <loc>https://calchub-pink.vercel.app/#/about</loc>
     <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -20,55 +20,55 @@
 
   <!-- Financial Calculators -->
   <url>
-    <loc>https://calchub.vercel.app/#/financial/emi</loc>
+    <loc>https://calchub-pink.vercel.app/#/financial/emi</loc>
     <lastmod>2026-07-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://calchub.vercel.app/#/financial/sip</loc>
+    <loc>https://calchub-pink.vercel.app/#/financial/sip</loc>
     <lastmod>2026-07-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://calchub.vercel.app/#/financial/compound-interest</loc>
+    <loc>https://calchub-pink.vercel.app/#/financial/compound-interest</loc>
     <lastmod>2026-07-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://calchub.vercel.app/#/financial/mortgage</loc>
+    <loc>https://calchub-pink.vercel.app/#/financial/mortgage</loc>
     <lastmod>2026-07-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://calchub.vercel.app/#/financial/loan</loc>
+    <loc>https://calchub-pink.vercel.app/#/financial/loan</loc>
     <lastmod>2026-07-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://calchub.vercel.app/#/financial/income-tax</loc>
+    <loc>https://calchub-pink.vercel.app/#/financial/income-tax</loc>
     <lastmod>2026-07-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://calchub.vercel.app/#/financial/gst</loc>
+    <loc>https://calchub-pink.vercel.app/#/financial/gst</loc>
     <lastmod>2026-07-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://calchub.vercel.app/#/financial/currency</loc>
+    <loc>https://calchub-pink.vercel.app/#/financial/currency</loc>
     <lastmod>2026-07-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://calchub.vercel.app/#/financial/retirement</loc>
+    <loc>https://calchub-pink.vercel.app/#/financial/retirement</loc>
     <lastmod>2026-07-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -76,43 +76,43 @@
 
   <!-- Health Calculators -->
   <url>
-    <loc>https://calchub.vercel.app/#/health/bmi</loc>
+    <loc>https://calchub-pink.vercel.app/#/health/bmi</loc>
     <lastmod>2026-07-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://calchub.vercel.app/#/health/calorie</loc>
+    <loc>https://calchub-pink.vercel.app/#/health/calorie</loc>
     <lastmod>2026-07-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://calchub.vercel.app/#/health/water-intake</loc>
+    <loc>https://calchub-pink.vercel.app/#/health/water-intake</loc>
     <lastmod>2026-07-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://calchub.vercel.app/#/health/ideal-weight</loc>
+    <loc>https://calchub-pink.vercel.app/#/health/ideal-weight</loc>
     <lastmod>2026-07-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://calchub.vercel.app/#/health/pregnancy</loc>
+    <loc>https://calchub-pink.vercel.app/#/health/pregnancy</loc>
     <lastmod>2026-07-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://calchub.vercel.app/#/health/body-fat</loc>
+    <loc>https://calchub-pink.vercel.app/#/health/body-fat</loc>
     <lastmod>2026-07-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://calchub.vercel.app/#/health/bmr</loc>
+    <loc>https://calchub-pink.vercel.app/#/health/bmr</loc>
     <lastmod>2026-07-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -120,43 +120,43 @@
 
   <!-- Math & Algebra Calculators -->
   <url>
-    <loc>https://calchub.vercel.app/#/math/scientific</loc>
+    <loc>https://calchub-pink.vercel.app/#/math/scientific</loc>
     <lastmod>2026-07-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://calchub.vercel.app/#/math/percentage</loc>
+    <loc>https://calchub-pink.vercel.app/#/math/percentage</loc>
     <lastmod>2026-07-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://calchub.vercel.app/#/math/fraction</loc>
+    <loc>https://calchub-pink.vercel.app/#/math/fraction</loc>
     <lastmod>2026-07-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://calchub.vercel.app/#/math/ratio</loc>
+    <loc>https://calchub-pink.vercel.app/#/math/ratio</loc>
     <lastmod>2026-07-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://calchub.vercel.app/#/math/average</loc>
+    <loc>https://calchub-pink.vercel.app/#/math/average</loc>
     <lastmod>2026-07-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://calchub.vercel.app/#/math/profit-loss</loc>
+    <loc>https://calchub-pink.vercel.app/#/math/profit-loss</loc>
     <lastmod>2026-07-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://calchub.vercel.app/#/math/discount</loc>
+    <loc>https://calchub-pink.vercel.app/#/math/discount</loc>
     <lastmod>2026-07-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -164,25 +164,25 @@
 
   <!-- Date & Time Calculators -->
   <url>
-    <loc>https://calchub.vercel.app/#/datetime/age</loc>
+    <loc>https://calchub-pink.vercel.app/#/datetime/age</loc>
     <lastmod>2026-07-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://calchub.vercel.app/#/datetime/date-difference</loc>
+    <loc>https://calchub-pink.vercel.app/#/datetime/date-difference</loc>
     <lastmod>2026-07-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://calchub.vercel.app/#/datetime/countdown</loc>
+    <loc>https://calchub-pink.vercel.app/#/datetime/countdown</loc>
     <lastmod>2026-07-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://calchub.vercel.app/#/datetime/time-duration</loc>
+    <loc>https://calchub-pink.vercel.app/#/datetime/time-duration</loc>
     <lastmod>2026-07-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -190,37 +190,37 @@
 
   <!-- Unit Converters -->
   <url>
-    <loc>https://calchub.vercel.app/#/unit/length</loc>
+    <loc>https://calchub-pink.vercel.app/#/unit/length</loc>
     <lastmod>2026-07-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://calchub.vercel.app/#/unit/weight</loc>
+    <loc>https://calchub-pink.vercel.app/#/unit/weight</loc>
     <lastmod>2026-07-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://calchub.vercel.app/#/unit/temperature</loc>
+    <loc>https://calchub-pink.vercel.app/#/unit/temperature</loc>
     <lastmod>2026-07-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://calchub.vercel.app/#/unit/speed</loc>
+    <loc>https://calchub-pink.vercel.app/#/unit/speed</loc>
     <lastmod>2026-07-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://calchub.vercel.app/#/unit/area</loc>
+    <loc>https://calchub-pink.vercel.app/#/unit/area</loc>
     <lastmod>2026-07-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://calchub.vercel.app/#/unit/volume</loc>
+    <loc>https://calchub-pink.vercel.app/#/unit/volume</loc>
     <lastmod>2026-07-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>

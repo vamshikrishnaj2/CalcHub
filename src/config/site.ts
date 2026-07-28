@@ -1,7 +1,7 @@
 export const SITE_CONFIG = {
   name: 'CalcHub',
-  domain: 'calchub.vercel.app',
-  baseUrl: 'https://calchub.vercel.app',
+  domain: 'calchub-pink.vercel.app',
+  baseUrl: 'https://calchub-pink.vercel.app',
   futureDomain: 'https://calchub.com',
   defaultTitle: 'CalcHub - Fast, Free & Accurate Online Calculators',
   titleTemplate: '%s | CalcHub',
