@@ -1,0 +1,6 @@
+{
+  "name": "CalcHub",
+  "description": "A high-performance, responsive multi-category platform featuring Financial, Health, Math, Date & Time, and Unit Conversion calculators.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

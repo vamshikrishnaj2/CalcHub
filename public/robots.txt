@@ -1,0 +1,7 @@
+# CalcHub Production Robots File
+User-agent: *
+Allow: /
+
+# Host & Sitemap specification
+Host: https://calchub.vercel.app
+Sitemap: https://calchub.vercel.app/sitemap.xml
