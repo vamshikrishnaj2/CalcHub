@@ -60,11 +60,11 @@ export function AgeCalculator() {
           <h3 className="font-semibold text-gray-800 dark:text-zinc-200">Lifespan Timeline</h3>
           <div>
             <label className="block text-xs font-medium text-gray-600 dark:text-zinc-400 mb-1">Date of Birth</label>
-            <input type="date" value={dob} onChange={e => setDob(e.target.value)} className="w-full px-3 py-2 rounded-lg border bg-white dark:bg-zinc-800 focus:ring-1 focus:ring-emerald-500" />
+            <input type="date" value={dob} onChange={e => setDob(e.target.value)} className="w-full px-3 py-2 rounded-lg border border-slate-200 dark:border-zinc-700 bg-white dark:bg-zinc-800 text-slate-900 dark:text-zinc-100 focus:outline-none focus:ring-1 focus:ring-emerald-500" />
           </div>
           <div>
             <label className="block text-xs font-medium text-gray-600 dark:text-zinc-400 mb-1">Age at Date (Defaults to today)</label>
-            <input type="date" value={targetDate} onChange={e => setTargetDate(e.target.value)} className="w-full px-3 py-2 rounded-lg border bg-white dark:bg-zinc-800 focus:ring-1 focus:ring-emerald-500" />
+            <input type="date" value={targetDate} onChange={e => setTargetDate(e.target.value)} className="w-full px-3 py-2 rounded-lg border border-slate-200 dark:border-zinc-700 bg-white dark:bg-zinc-800 text-slate-900 dark:text-zinc-100 focus:outline-none focus:ring-1 focus:ring-emerald-500" />
           </div>
         </div>
 
@@ -135,11 +135,11 @@ export function DateDifferenceCalculator() {
           <h3 className="font-semibold text-gray-800 dark:text-zinc-200">Gaps</h3>
           <div>
             <label className="block text-xs font-medium text-gray-600 dark:text-zinc-400 mb-1">Starting Date</label>
-            <input type="date" value={start} onChange={e => setStart(e.target.value)} className="w-full px-3 py-2 rounded-lg border bg-white dark:bg-zinc-800" />
+            <input type="date" value={start} onChange={e => setStart(e.target.value)} className="w-full px-3 py-2 rounded-lg border border-slate-200 dark:border-zinc-700 bg-white dark:bg-zinc-800 text-slate-900 dark:text-zinc-100 focus:outline-none focus:ring-1 focus:ring-emerald-500" />
           </div>
           <div>
             <label className="block text-xs font-medium text-gray-600 dark:text-zinc-400 mb-1">Ending Target Date</label>
-            <input type="date" value={end} onChange={e => setEnd(e.target.value)} className="w-full px-3 py-2 rounded-lg border bg-white dark:bg-zinc-800" />
+            <input type="date" value={end} onChange={e => setEnd(e.target.value)} className="w-full px-3 py-2 rounded-lg border border-slate-200 dark:border-zinc-700 bg-white dark:bg-zinc-800 text-slate-900 dark:text-zinc-100 focus:outline-none focus:ring-1 focus:ring-emerald-500" />
           </div>
           <div className="flex items-center">
             <input type="checkbox" id="includeEnd" checked={includeEnd} onChange={e => setIncludeEnd(e.target.checked)} className="mr-2 accent-emerald-500" />
@@ -220,14 +220,14 @@ export function CountdownTimer() {
           <h3 className="font-semibold text-gray-800 dark:text-zinc-200 text-sm">Timer Settings</h3>
           <div>
             <label className="block text-xs font-medium text-gray-600 dark:text-zinc-400 mb-1">Target End Year / Date / Hour</label>
-            <input type="datetime-local" value={targetTimeStr} onChange={e => setTargetTimeStr(e.target.value)} className="w-full px-3 py-2 rounded-lg border bg-white dark:bg-zinc-800 text-sm" />
+            <input type="datetime-local" value={targetTimeStr} onChange={e => setTargetTimeStr(e.target.value)} className="w-full px-3 py-2 rounded-lg border border-slate-200 dark:border-zinc-700 bg-white dark:bg-zinc-800 text-slate-900 dark:text-zinc-100 text-sm focus:outline-none focus:ring-1 focus:ring-emerald-500" />
           </div>
           <div className="pt-2">
-            <span className="block text-gray-500 mb-1">Quick Add shortcuts:</span>
+            <span className="block text-gray-500 dark:text-zinc-400 mb-1">Quick Add shortcuts:</span>
             <div className="flex gap-2">
-              <button onClick={() => handleSetSample(5)} className="px-3 py-1 bg-white border rounded shadow-sm text-xs">5 Minutes</button>
-              <button onClick={() => handleSetSample(60)} className="px-3 py-1 bg-white border rounded shadow-sm text-xs">1 Hour</button>
-              <button onClick={() => handleSetSample(24 * 60)} className="px-3 py-1 bg-white border rounded shadow-sm text-xs">1 Day</button>
+              <button onClick={() => handleSetSample(5)} className="px-3 py-1 bg-white dark:bg-zinc-800 text-slate-800 dark:text-white border border-slate-200 dark:border-zinc-700 rounded-lg shadow-2xs text-xs font-medium hover:border-slate-300 dark:hover:border-zinc-600 transition-colors cursor-pointer">5 Minutes</button>
+              <button onClick={() => handleSetSample(60)} className="px-3 py-1 bg-white dark:bg-zinc-800 text-slate-800 dark:text-white border border-slate-200 dark:border-zinc-700 rounded-lg shadow-2xs text-xs font-medium hover:border-slate-300 dark:hover:border-zinc-600 transition-colors cursor-pointer">1 Hour</button>
+              <button onClick={() => handleSetSample(24 * 60)} className="px-3 py-1 bg-white dark:bg-zinc-800 text-slate-800 dark:text-white border border-slate-200 dark:border-zinc-700 rounded-lg shadow-2xs text-xs font-medium hover:border-slate-300 dark:hover:border-zinc-600 transition-colors cursor-pointer">1 Day</button>
             </div>
           </div>
         </div>
@@ -325,12 +325,12 @@ export function TimeDurationCalculator() {
           <h3 className="font-semibold text-gray-800 dark:text-zinc-200">Session Clock Range Difference</h3>
           <div className="grid grid-cols-2 gap-3">
             <div>
-              <span className="block text-xs text-gray-500 mb-1">Punch In Time</span>
-              <input type="time" value={stamp1} onChange={e => setStamp1(e.target.value)} className="w-full px-2 py-1 border rounded bg-white dark:bg-zinc-800" />
+              <span className="block text-xs text-gray-500 dark:text-zinc-400 mb-1">Punch In Time</span>
+              <input type="time" value={stamp1} onChange={e => setStamp1(e.target.value)} className="w-full px-2 py-1 border border-slate-200 dark:border-zinc-700 rounded-lg bg-white dark:bg-zinc-800 text-slate-900 dark:text-zinc-100" />
             </div>
             <div>
-              <span className="block text-xs text-gray-500 mb-1">Punch Out Time</span>
-              <input type="time" value={stamp2} onChange={e => setStamp2(e.target.value)} className="w-full px-2 py-1 border rounded bg-white dark:bg-zinc-800" />
+              <span className="block text-xs text-gray-500 dark:text-zinc-400 mb-1">Punch Out Time</span>
+              <input type="time" value={stamp2} onChange={e => setStamp2(e.target.value)} className="w-full px-2 py-1 border border-slate-200 dark:border-zinc-700 rounded-lg bg-white dark:bg-zinc-800 text-slate-900 dark:text-zinc-100" />
             </div>
           </div>
           {singleDiffResult && (
@@ -354,9 +354,9 @@ export function TimeDurationCalculator() {
             {addedSessions.map((row, idx) => (
               <div key={row.id} className="flex gap-2 items-center">
                 <span className="text-[10px] text-gray-400 font-mono">Row #{idx+1}</span>
-                <input type="number" placeholder="Hrs" value={row.hours} onChange={e => handleSessionChange(row.id, 'hours', Number(e.target.value))} className="w-16 px-1.5 py-1 text-center border rounded font-mono text-xs" />
-                <span className="text-gray-400">hr</span>
-                <input type="number" placeholder="Mins" value={row.minutes} onChange={e => handleSessionChange(row.id, 'minutes', Number(e.target.value))} className="w-16 px-1.5 py-1 text-center border rounded font-mono text-xs" />
+                <input type="number" placeholder="Hrs" value={row.hours} onChange={e => handleSessionChange(row.id, 'hours', Number(e.target.value))} className="w-16 px-1.5 py-1 text-center border border-slate-200 dark:border-zinc-700 bg-white dark:bg-zinc-800 text-slate-900 dark:text-zinc-100 rounded font-mono text-xs" />
+                <span className="text-gray-400 dark:text-zinc-400">hr</span>
+                <input type="number" placeholder="Mins" value={row.minutes} onChange={e => handleSessionChange(row.id, 'minutes', Number(e.target.value))} className="w-16 px-1.5 py-1 text-center border border-slate-200 dark:border-zinc-700 bg-white dark:bg-zinc-800 text-slate-900 dark:text-zinc-100 rounded font-mono text-xs" />
                 <span className="text-gray-400">min</span>
                 <button onClick={() => handleRemoveSession(row.id)} className="text-[10px] text-rose-500 hover:underline inline ml-auto font-mono">Remove</button>
               </div>
